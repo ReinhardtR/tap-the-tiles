@@ -68,20 +68,24 @@ export default function GameBoard({ onHit, onMiss }) {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
+    width: "100%",
     flexDirection: "column",
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "flex-start",
   },
   row: {
+    width: "100%",
+    alignSelf: "stretch",
     flexDirection: "row",
-    alignItems: "center",
+    alignItems: "flex-start",
     justifyContent: "center",
   },
   tile: {
     backgroundColor: "white",
-    height: "100px",
-    width: "100px",
-    margin: "1px",
+    height: 100,
+    width: "20%",
+    margin: 1,
   },
   clickable: {
     backgroundColor: "skyblue",

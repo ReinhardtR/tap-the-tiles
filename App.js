@@ -14,12 +14,8 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    margin: "auto",
-    backgroundColor: "black",
+    flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    height: "100vh",
-    width: "100vw",
-    maxWidth: "480px",
   },
 });
