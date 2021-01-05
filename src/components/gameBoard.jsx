@@ -68,11 +68,11 @@ export default function GameBoard({ onHit, onMiss }) {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
     width: "100%",
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "flex-start",
+    padding: 50,
   },
   row: {
     width: "100%",
@@ -83,8 +83,8 @@ const styles = StyleSheet.create({
   },
   tile: {
     backgroundColor: "white",
-    height: 100,
-    width: "20%",
+    height: 90,
+    width: 90,
     margin: 1,
   },
   clickable: {

@@ -20,13 +20,11 @@ export default function Game() {
     <View style={styles.container}>
       <Text style={styles.score}>{score}</Text>
       {!isDead && (
-        <>
-          <GameBoard
-            style={styles.game}
-            onHit={() => onHit()}
-            onMiss={() => onMiss()}
-          />
-        </>
+        <GameBoard
+          style={styles.game}
+          onHit={() => onHit()}
+          onMiss={() => onMiss()}
+        />
       )}
     </View>
   );
@@ -39,7 +37,7 @@ const styles = StyleSheet.create({
     maxWidth: 500,
     backgroundColor: "black",
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "space-around",
   },
   score: {
     fontSize: 50,
