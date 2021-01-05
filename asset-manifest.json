@@ -1,0 +1,22 @@
+{
+  "files": {
+    "app.js": "/tap-the-tiles/static/js/app.8dd7cddc.chunk.js",
+    "app.js.map": "/tap-the-tiles/static/js/app.8dd7cddc.chunk.js.map",
+    "runtime~app.js": "/tap-the-tiles/static/js/runtime~app.b48dad58.js",
+    "runtime~app.js.map": "/tap-the-tiles/static/js/runtime~app.b48dad58.js.map",
+    "static/js/2.55a17a28.chunk.js": "/tap-the-tiles/static/js/2.55a17a28.chunk.js",
+    "static/js/2.55a17a28.chunk.js.map": "/tap-the-tiles/static/js/2.55a17a28.chunk.js.map",
+    "favicon-16.png": "/tap-the-tiles/favicon-16.png",
+    "favicon-32.png": "/tap-the-tiles/favicon-32.png",
+    "favicon.ico": "/tap-the-tiles/favicon.ico",
+    "index.html": "/tap-the-tiles/index.html",
+    "manifest.json": "/tap-the-tiles/manifest.json",
+    "serve.json": "/tap-the-tiles/serve.json",
+    "static/js/2.55a17a28.chunk.js.LICENSE.txt": "/tap-the-tiles/static/js/2.55a17a28.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.b48dad58.js",
+    "static/js/2.55a17a28.chunk.js",
+    "static/js/app.8dd7cddc.chunk.js"
+  ]
+}
